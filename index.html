@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="section">
+            <div class="subsection">
+                <h1>Victoria Lopez Trujillo</h1>
+                <p>Web Deloper</p>
+                <div class="status">
+                    <p class="p-status">available for work</p>
+                    <div class="dot"></div>
+                </div>
+                <img class="perfil" src="img/img.jpeg" alt="Victoria Lopez">
+            </div>
+
+            <div class="subsection">
+                <p class="p-subsection">Hola soy Victoria, poseo habilidades avanzadas en planificación, resolución de problemas,
+                    comunicación efectiva y conocimientos en HTML, CSS, JavaScript y diseño responsivo. Estoy buscando
+                    un entorno donde la creatividad y la tecnología se unan para crear nuevas experiencias.</p>
+                <div>
+                    <a href="https://www.linkedin.com/in/v%C3%ADctoria-l%C3%B3pez-trujillo-4777a6217/"><button
+                            class="btn-black">Linkedin</button></a>
+                    <a href="./files/cv_victoria_lopez.pdf" download="cv_Victoria">
+                        <button class="btn-line">CV downloand</button></a>
+                </div>
+            </div>
+
+        </div>
+        <div class="container">
+            <div class="section">
+                <div class="subsection">
+                    <h2>EXPERIENCIA LABORAL</h2>
+                    <h3><u>CITIBANAMEX</u></h3>
+                    <p>Operador cajero</p>
+                    <div class="year">07/2019-05/2021</div>
+                    <h3><u>CASA DE EMPEÑO PRESTAMANIA</u></h3>
+                    <p>Supervisora de sucursal</p>
+                    <div class="year">05/2015-10/2018</div>
+                    <h3><u>BANCO AZTECA</u></h3>
+                    <p>Cajero Universal</p>
+                    <div class="year">07/2013-08/2014</div>
+                </div>
+                <div class="subsection">
+                    <h2>FORMACION ACADEMICA</h2>
+                    <h3><u>Mujer Digital-Junior Achievement</u></h3>
+                    <p>diseño web</p>
+                    <div class="year">CURSANDO</div>
+                    <h3><u>CAPACITACION PARA EL TRABAJO SNE</u></h3>
+                    <P>Auxiliar contable</P>
+                    <div class="year">04/2015-05/2015</div>
+                    <h3><u>CONAFE</u></h3>
+                    <p>Instrucctor Comunitario</p>
+                    <div class="year">05/2011-07/2012</div>
+                    <h3><u>COBAEM</u></h3>
+                    <p>Formacion para el trabajo Tecnico en informatica</p>
+                    <div class="year">08/2008-07/2011</div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="section">
+                    <div class="email">
+                        <form id="form">
+                            <div class="field">
+                                <label for="from_name">Nobre</label>
+                                <input type="text" name="from_name" id="from_name">
+                            </div>
+                            <div class="field">
+                                <label for="email_id">email</label>
+                                <input type="text" name="email_id" id="email_id">
+                            </div>
+                            <div class="field">
+                                <label for="message">mensaje</label>
+                                <input type="text" name="message" id="message">
+                            </div>
+                            <input type="submit" id="button" value="Send Email">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="subsection">
+
+
+        </div>
+    </div>
+
+    <script src="email.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        emailjs.init('EIuSIOxcld0iHSldE')
+    </script>
+
+</body>
+
+</html>
